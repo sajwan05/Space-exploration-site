@@ -14,13 +14,12 @@ html {
     border-radius: .75em;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 body {
     font-size: 1.23rem;
     line-height: 1.4;
-    font-family: sans-serif;
-
     text-align: center;
 }
 
@@ -29,6 +28,11 @@ body {
     background-size: cover;
 
     color: #f4f4f4;
+}
+
+body,
+.btn {
+    font-family: "Orbitron", sans-serif;
 }
 
 h1 {
