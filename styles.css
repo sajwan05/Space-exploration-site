@@ -18,16 +18,21 @@ html {
 }
 
 body {
+    min-height: 100vh;
     font-size: 1.23rem;
     line-height: 1.4;
     text-align: center;
+    margin: 0;
 }
 
-body {
+div {
     background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWN5YWdxaG1tdWdvY3czMjhhaG0yb2gwczRyYm9sMDVnMHpuamJnNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elcAvTEXkG02d17sr7/200.webp");
     background-size: cover;
 
     color: #f4f4f4;
+    padding: 1em;
+    
+
 }
 
 body,
@@ -43,6 +48,16 @@ h1 {
     border-bottom: 5px solid #f4f4f4;
 }
 
+#main-logo {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+h3 {
+        line-height: 100px;
+    }
+
 
 @media all and (min-width:500px) {
     h1 {
@@ -52,16 +67,18 @@ h1 {
         font-size: 1rem;
     }
 
-    body {
-        min-height: 100vh;
+    div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0;
     }
 
     .underline {
         color: hotpink;
     }
+
+    
 }
 
