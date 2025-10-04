@@ -43,3 +43,25 @@ h1 {
     border-bottom: 5px solid #f4f4f4;
 }
 
+
+@media all and (min-width:500px) {
+    h1 {
+        font-size: 4.45rem;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .underline {
+        color: hotpink;
+    }
+}
+
