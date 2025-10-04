@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em .8em;
+    border-radius: .75em;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    font-size: 1.23rem;
+    line-height: 1.4;
+    font-family: sans-serif;
+
+    text-align: center;
+}
+
+body {
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWN5YWdxaG1tdWdvY3czMjhhaG0yb2gwczRyYm9sMDVnMHpuamJnNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elcAvTEXkG02d17sr7/200.webp");
+    background-size: cover;
+
+    color: #f4f4f4;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.underline {
+    border-bottom: 5px solid #f4f4f4;
+}
+
